@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,400;0,600;0,700;0,800;0,900;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+.padded{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.theme-btn-s2 {
+    background: #fe3e57;
+    border: none;
+}
+.theme-btn-s2 {
+    color: #fff;
+    font-weight: 600;
+    padding: 17px 40px 13px;
+    text-transform: capitalize;
+    display: block;
+    display: inline-block;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.theme-btn-s2:hover {
+    text-decoration: none;
+    color: #fff !important;
+}
+.text-banner{
+    position: absolute;
+}
+.img-blog{
+    padding: 85px;
+    margin-top: 0;
+    background: #fff;
+    box-shadow: 0 2px 14.25px 0.75px rgb(58 58 58 / 15%);
+}
+.align-items-center{
+    align-items: center;
+}
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+.card-img-top{
+    width: 55px;
+    height: 60px;
+    padding-top: 20px;
+}
+.title{
+    color: #121127;
+    font-size: 70px;
+    margin-bottom: 50px;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: Josefin Sans,sans-serif;
+    color: #333;
+    font-weight: 700;
+}
+.boton-second-section {
+    color: #666;
+    font-weight: 600;
+    padding: 12px 27px 10px;
+    text-transform: capitalize;
+    display: block;
+    border: 1px solid #666;
+    display: inline-block;
+    text-decoration: none;
+}
+.boton-second-section:hover{
+    background: #fe3e57;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}
+#second-section {
+    background: #f9f9f9;
+    padding-bottom: 70px;
+}
+.caja{
+    padding: 50px 60px;
+}
+nav{
+    margin-top: 0px; 
+    height: 85px !important;
+    padding-top: 10px !important;
+    background-color: #fff;
+}   
+.bg-light {
+    background-color: #fff !important;
+}
+.navbar .nav-item {
+    color: #666 ;
+    padding: 30px 19px;
+    margin-right: -5px;
+    font-weight: 600;
+    font-size: 19px;
+    font-size: 15px !important;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.navbar .nav-item a:hover{
+    background: none;
+    color: #fe3e57 !important;
+}
+.text4{
+    font-size: 60px;
+}
+/**/
+.ewe{
+    margin-left: 20px;
+}
+.footer2{
+  height: 80px;   
+  padding: 30px;
+  background-color: rgb(238, 236, 236);
+}
+#fondo-oscuro{
+    position: fixed;
+    background-color: rgba(0,0,0,0.7);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    /* El z-index con el numero mas alto tapa todo*/
+    z-index: 2000;
+    /* Para centrar la imagen */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-footer{
+    width: 40px;
+    height: 25px;
+    margin-top: -5px;
+}
+.footer-social {
+    text-align: right;
+}
+.footer-social ul li {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    border: 1px solid #3840a9;
+    text-align: center;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+.text-first-section p {
+    color: #666;
+    margin-bottom: 30px;
+    font-size: 16px;
+    line-height: 30px;
+}
+.text-first-section ul li {
+    padding-bottom: 15px;
+    padding-left: 20px;
+    position: relative;
+    color: #9c9c9c;
+}
+::marker {
+    color: #fff;
+  }
+.text-first-section ul li:before{
+    position: absolute;
+    left: 0;
+    top: 7px;
+    width: 8px;
+    height: 8px;
+    background: #fe3e57;
+    content: "";
+    border-radius: 50%;
+}
+.card-body h2{
+    font-size: 35px;
+    color: #131058;
+    margin-bottom: 25px;
+}
+.card-body p{
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 30px;
+    line-height: 28px
+}
+.number{
+    margin-top: 28px;
+    margin-left: 123px;
+}
+.number a{
+    font-weight: 400; 
+    border-bottom: 1px solid #642138;
+    color: #666;
+    border-color: #f7b7c4;
+    text-decoration-line: none;
+    font-family: Nunito, sans-serif;
+    font-size: 25px;
+}
+.number a:hover {
+    color: #666 !important;
+}
+.contact-number{
+    text-align: right !important;
+}
+.dropdown-menu{
+    top: 87% !important;
+}
+.navbar-collapse {
+    padding-left: 140px;
+    margin-top: 5px;
+}
